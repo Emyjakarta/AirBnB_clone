@@ -1,0 +1,17 @@
+header {
+	height: 70px;
+	background-color: white; /*#FF0000;*/
+	color: #484848;
+	display: flex;
+	align-items: center;
+}
+
+.logo {
+	width: 100px; /* Adjust according to your logo size */
+	height: 50px; /* Adjust according to your logo size */
+	background-image: url("../images/1-logo.png"); /* Adjust the path to your logo */
+	background-size: contain;
+	background-repeat: no-repeat;
+	margin-left: 20px;
+}
+

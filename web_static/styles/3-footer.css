@@ -1,7 +1,7 @@
 footer {
 	height: 60px;
-	background-color: white; /*#00FF00;*/
-	color: #484848;
+	background-color: white;
+	color: #000000; /*black;*/ /*#484848;*/
 	display: flex;
 	align-items: center;
 	justify-content: center;
@@ -9,5 +9,6 @@ footer {
 	bottom: 0;
 	left: 0;
 	right: 0;
+	border-top: 1px solid #CCCCCC;
 }
 

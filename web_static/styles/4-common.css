@@ -3,6 +3,10 @@ body {
 	padding: 0;
 }
 
+main {
+	height: calc(100vh - 130px);
+}
+
 .container {
 	max-width: 1000px;
 	margin: 30px auto;

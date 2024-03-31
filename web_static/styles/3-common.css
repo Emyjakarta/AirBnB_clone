@@ -6,12 +6,6 @@ body {
 	color: #484848;
 }
 
-header, footer {
-	width: 100%;
-	border-bottom: 1px solid #CCCCCC;
+main {
+	height: calc(100vh - 130px);
 }
-
-footer {
-	border-top: 1px solid #CCCCCC;
-}
-

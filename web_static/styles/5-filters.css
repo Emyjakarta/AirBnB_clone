@@ -5,23 +5,27 @@
 	border-radius: 4px;
 	background-color: white;
 	justify-content: flex-end;
+	height: 70px;
+	width: 100%;
 }
 
 .locations, .amenities {
 	height: 100%;
 	width: 25%;
+	text-align: left;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: flex-start;
+	margin-left: 60px;
 }
 
 .locations {
 	border-right: 1px solid #DDDDDD;
-	padding-right: 10px; /* Adjust padding for proper spacing */
-	padding-left: 40px;
 }
 
 .amenities {
-	border-left: none;
-	padding-left: 40px; /* Adjust padding for proper spacing */
-	padding-right: 250px;
+	margin-right: auto;
 }
 
 h3 {
